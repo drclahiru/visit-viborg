@@ -1,0 +1,25 @@
+.top-buffer {
+  margin-top: 10px;
+}
+
+.remove-margin-left {
+  margin-left: 0;
+}
+
+.radio-buffer {
+  margin-top: 7px;
+}
+
+.locations-list {
+  padding: 20px 0;
+  border-top: 1px solid #c8d1cc;
+}
+
+.location-glyphicon-position {
+  padding-top: 3px;
+  padding-right: 4px;
+}
+
+.step-icon {
+  padding-left: 8px;
+}

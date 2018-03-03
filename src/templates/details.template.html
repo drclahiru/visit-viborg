@@ -1,0 +1,38 @@
+<section>
+  <div class="row remove-margin-left">
+    <a href="/#details/{{firstLocation}}">
+      <span class="fa fa-fast-backward"></span>
+    </a>
+    <a href="/#details/{{previousLocation}}" class="step-icon">
+      <span class="fa fa-step-backward"></span>
+    </a>
+    <a href="/#details/{{nextLocation}}" class="step-icon">
+      <span class="fa fa-step-forward"></span>
+    </a>
+    <a href="/#details/{{lastLocation}}" class="step-icon">
+      <span class="fa fa-fast-forward"></span>
+    </a>
+  </div>
+
+  <div class="row" ng-model="locations">
+    <div class="col-xs-6 col-md-3">
+      <img ng-src="images/{{locations[itemId].name}}.jpg" class="img-fluid">
+    </div>
+    <div class="col-xs-6 col-md-9">
+      <div class="row">
+        <h3> {{ locations[itemId].name }} </h3>
+      </div>
+      <div class="row">
+        <span class="fa fa-map-marker location-glyphicon-position"></span>
+        {{ locations[itemId].location }}
+      </div>
+      <div class="row">
+        {{ locations[itemId].description }}
+      </div>
+    </div>
+  </div>
+
+  <div class="row remove-margin-left">
+    <a href="/#home">Back to the list</a>
+  </div>
+</section>
